@@ -1,0 +1,53 @@
+/* 
+ - FONT SIZE SYSTEM (px)
+            10 / 12 / 14 / 16 / 18 / 20 / 24 / 30
+             / 36 / 44 / 52 / 62 / 74 / 86 / 98 
+ - SPACING SYSTEM (px)
+            2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 
+            / 64 / 80 / 96 / 128 
+
+1.) TYPOGRAPHY -->
+    Roboto 
+    Font weights --> 400,500,700,900
+
+2.) COLORS -->
+Primary: #fcc419
+GREYS->
+#191402
+*/
+
+/* HERO */
+
+.section-hero {
+  padding: 10rem 0;
+  background-color: #fcc419;
+}
+
+.hero-content {
+  max-width: 114rem;
+  margin: 0 auto;
+}
+
+.heading-primary {
+  font-size: 6rem;
+  font-weight: 900;
+  margin-bottom: 3.2rem;
+  letter-spacing: -1.1px;
+  line-height: 1;
+}
+
+.hero-paragraph {
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.7;
+  margin-bottom: 4.4rem;
+}
+
+.hero-img {
+  width: 75%;
+  border-radius: 7px;
+}
+
+.hero-grid {
+  column-gap: 8rem;
+}
