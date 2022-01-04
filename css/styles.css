@@ -37,6 +37,29 @@ GREYS->
   margin-bottom: 4.4rem;
 }
 
+.hero-customers-imgs {
+  display: flex;
+  align-items: center;
+}
+
+.hero-customer-img {
+  width: 9%;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  margin-left: -1.7rem;
+}
+
+.customers-span {
+  font-weight: 900;
+  color: #191402;
+}
+
+.hero-customer-img-para {
+  margin-left: 3.2rem;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
 .hero-img {
   width: 75%;
   border-radius: 7px;
