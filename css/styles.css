@@ -76,8 +76,12 @@ GREYS->
 /* BENEFITS */
 
 .section-benefits {
-  padding: 9.6rem 3.2rem;
+  padding: 12.8rem 3.2rem;
   background-color: #191402;
+}
+
+.benefit:not(:last-child) {
+  margin-bottom: 9.6rem;
 }
 
 .benefits-img {
@@ -97,4 +101,8 @@ GREYS->
   font-size: 9.6rem;
   margin-bottom: 2rem;
   color: #4c3b07;
+}
+
+.benefits-img-left {
+  justify-self: center;
 }
