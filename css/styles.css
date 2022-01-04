@@ -13,15 +13,19 @@
 2.) COLORS -->
 Primary: #fcc419
 #e3b017
+WHITES -->
+#FFF
+#F1F1F1
 GREYS->
 #191402
-#322705;
+#322705
+#654e0a
 */
 
 /* HERO */
 
 .section-hero {
-  padding: 10rem 0;
+  padding: 9.6rem 3.2rem;
   background-color: #fcc419;
 }
 
@@ -72,6 +76,25 @@ GREYS->
 /* BENEFITS */
 
 .section-benefits {
-  padding: 9.6rem 0;
+  padding: 9.6rem 3.2rem;
   background-color: #191402;
+}
+
+.benefits-img {
+  width: 40%;
+  justify-self: center;
+  border-radius: 11px;
+  box-shadow: 0 1rem 3rem #fcc419;
+}
+
+.benefits-text {
+  font-size: 1.5rem;
+  line-height: 1.7;
+  color: #f1f1f1;
+}
+
+.benefit-number {
+  font-size: 9.6rem;
+  margin-bottom: 2rem;
+  color: #4c3b07;
 }
