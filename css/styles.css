@@ -85,21 +85,21 @@ GREYS->
 }
 
 .benefits-img {
-  width: 40%;
+  width: 50%;
   justify-self: center;
   border-radius: 11px;
-  box-shadow: 0 1rem 3rem #fcc419;
+  box-shadow: 0 0rem 1rem #fcc419;
 }
 
 .benefits-text {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   line-height: 1.7;
   color: #f1f1f1;
 }
 
 .benefit-number {
   font-size: 9.6rem;
-  margin-bottom: 2rem;
+  margin-bottom: 3.2rem;
   color: #4c3b07;
 }
 
