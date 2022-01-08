@@ -32,6 +32,10 @@ body {
   grid-template-columns: repeat(2, 1fr);
 }
 
+.grid-3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+
 .heading-primary {
   font-size: 6rem;
   font-weight: 900;
@@ -54,6 +58,13 @@ body {
   font-size: 3.6rem;
   font-weight: 700;
   margin-bottom: 2rem;
+  color: #e3b017;
+}
+
+.heading-quaternery {
+  font-size: 2.4rem;
+  font-weight: 900;
+  margin-bottom: 1.6rem;
   color: #e3b017;
 }
 

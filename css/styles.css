@@ -113,4 +113,55 @@ GREYS->
 .section-achievements {
   padding: 12.8rem 3.2rem;
   background-color: #322705;
+  color: #f1f1f1;
+}
+
+.card {
+  background-color: #191402;
+  border-radius: 6px;
+  box-shadow: 0 0rem 1rem #fff;
+  transition: all 0.5s;
+}
+
+.card:hover {
+  background-color: #eee;
+  color: #191402;
+  transform: translateY(-1rem);
+  box-shadow: 0 0rem 1rem #fcc419;
+}
+
+.card:hover h4 {
+  color: #e3b017;
+}
+
+.card_img {
+  width: 100%;
+  border-radius: 6px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.card_text_box {
+  padding: 1.2rem 4rem 2rem;
+  text-align: center;
+}
+
+.list_of_achievements {
+  list-style: none;
+  font-size: 1.6rem;
+}
+
+.achievement_icon {
+  width: 2.4rem;
+  height: 2.4rem;
+}
+
+.list_achievement_item {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.list_achievement_item:not(:last-child) {
+  margin-bottom: 1.2rem;
 }
