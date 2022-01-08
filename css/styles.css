@@ -68,6 +68,7 @@ GREYS->
   width: 75%;
   border-radius: 7px;
   justify-self: center;
+  box-shadow: 0 1rem 1rem #191402;
 }
 
 .hero-grid {
