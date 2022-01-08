@@ -14,3 +14,8 @@ our customers
 -- Get access to our personal fitness tracker app
 Personalized training from professinals
 Fully equipped HTTT cardio equipment and trainers
+
+-testimonitals
+-photogallery
+-cta
+-footer

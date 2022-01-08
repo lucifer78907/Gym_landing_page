@@ -169,3 +169,71 @@ GREYS->
 .all_achievements {
   text-align: center;
 }
+
+/* TESTIMONIALS */
+
+.section-testimonials {
+  padding: 9.6rem 3.2rem;
+  background-color: #fcc419;
+}
+
+.pre-heading--testimonials {
+  color: #4c3b07;
+}
+
+.heading-secondary--testimonials {
+  color: #191402;
+}
+
+.testimonial-card {
+  background-color: #191402;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3.2rem;
+  border-radius: 11px;
+  overflow: hidden;
+  box-shadow: 0 1rem 2rem #191402;
+  transition: all 0.3s;
+}
+
+.testimonial-card:hover {
+  transform: translateY(-1rem) scale(1.1);
+  background-color: #f1f1f1;
+}
+
+.testimonial-card:hover .testimonial_text_box {
+  color: #191402;
+}
+
+.testimonial-card:hover .testimonial_author {
+  color: #322705;
+}
+
+.testimonial-card:hover .testimonial_author_designation {
+  color: #322705;
+}
+
+.testimonial_text_box {
+  color: #f1f1f1;
+  font-size: 1.6rem;
+  padding: 1.2rem 2rem;
+  margin-left: -2rem;
+}
+
+.testimonial {
+  font-style: italic;
+  margin-bottom: 2rem;
+}
+
+.testimonial_author {
+  color: #ccc;
+}
+
+.testimonial_author_designation {
+  color: #aaa;
+}
+
+.testimonial_img {
+  width: 30%;
+}
