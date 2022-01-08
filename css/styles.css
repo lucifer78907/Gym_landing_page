@@ -119,7 +119,7 @@ GREYS->
 .card {
   background-color: #191402;
   border-radius: 6px;
-  box-shadow: 0 0rem 1rem #fff;
+  box-shadow: 0 0rem 1rem #fcc419;
   transition: all 0.5s;
 }
 
@@ -127,11 +127,11 @@ GREYS->
   background-color: #eee;
   color: #191402;
   transform: translateY(-1rem);
-  box-shadow: 0 0rem 1rem #fcc419;
+  box-shadow: 0 0rem 1rem #fff;
 }
 
 .card:hover h4 {
-  color: #e3b017;
+  color: #4c3b07;
 }
 
 .card_img {
@@ -164,4 +164,8 @@ GREYS->
 
 .list_achievement_item:not(:last-child) {
   margin-bottom: 1.2rem;
+}
+
+.all_achievements {
+  text-align: center;
 }

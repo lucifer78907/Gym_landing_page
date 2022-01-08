@@ -96,6 +96,22 @@ body {
   color: #191402;
 }
 
+.btn--yellow:link,
+.btn--yellow:visited {
+  font-size: 1.6rem;
+  letter-spacing: 1px;
+  margin-top: 8rem;
+  text-transform: capitalize;
+}
+
+.btn--yellow:hover {
+  transform: translateY(-0.5rem);
+}
+
+.btn--yellow:active {
+  transform: translate(0);
+}
+
 .u-margin-bottom {
   margin-bottom: 4.4rem;
 }
