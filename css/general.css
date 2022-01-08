@@ -57,6 +57,14 @@ body {
   color: #e3b017;
 }
 
+.pre-heading {
+  font-size: 2rem;
+  text-transform: uppercase;
+  margin-bottom: 3.2rem;
+  color: #f1f1f1;
+  letter-spacing: 2px;
+}
+
 .btn:link,
 .btn:visited {
   display: inline-block;
