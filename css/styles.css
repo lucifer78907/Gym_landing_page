@@ -292,11 +292,19 @@ Large: 1.7
 
 .plan-features-item {
   display: flex;
-  justify-content: center;
   align-items: center;
   gap: 2rem;
   padding: 2rem;
   font-weight: 500;
+}
+
+.plan-features-item-text {
+  margin: 0 auto;
+  transition: all 0.2s;
+}
+
+.plan-features-item-text:hover {
+  transform: scale(1.2);
 }
 
 .plan-features-item:not(:last-child) {
@@ -304,8 +312,8 @@ Large: 1.7
 }
 
 .plan-features-icon {
-  width: 2.4rem;
-  height: 2.4rem;
+  width: 3rem;
+  height: 3rem;
 }
 
 .join_btn {
@@ -328,7 +336,7 @@ Large: 1.7
   transform: scale(1.1);
 }
 
-.price-card::after {
+.price-card-bestseller::after {
   content: "Best seller";
   font-size: 1.8rem;
   font-weight: 900;
@@ -342,4 +350,106 @@ Large: 1.7
   right: -3.7rem;
   transform: rotate(44deg);
   border-radius: 3px;
+}
+
+/* CTA */
+
+.section-cta {
+  padding: 9.6rem 3.2rem;
+  background-image: linear-gradient(
+      105deg,
+      rgba(252, 195, 25, 0.801) 0%,
+      rgba(252, 195, 25, 0.808) 55%,
+      hsla(47, 85%, 5%, 0.808) 55%
+    ),
+    url(../img/cta-img.jpg);
+  background-size: cover;
+  background-position: top;
+}
+
+.cta-section-pre-heading {
+  color: #322705;
+}
+
+.cta-section-heading-secondary {
+  color: #191402;
+  margin-bottom: 6rem;
+}
+
+.form_label {
+  font-size: 1.8rem;
+  display: inline-block;
+  font-weight: 500;
+}
+
+.form_label:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
+.form_input {
+  display: block;
+  width: 50%;
+  border: none;
+  padding: 1.2rem 2rem;
+  outline: none;
+  border-radius: 6px;
+  font-family: inherit;
+  background-color: #eee;
+  border-bottom: 3px solid transparent;
+  transition: all 0.2s;
+  color: #333;
+  font-size: 1.6rem;
+}
+
+.form_input:focus {
+  border-bottom: 3px solid #4c3b07;
+}
+
+.form_input:not(:last-child) {
+  margin-bottom: 2rem;
+}
+
+.sign_up_btn {
+  padding: 6rem 0rem;
+}
+
+/* FOOTER */
+
+.footer {
+  padding: 4.4rem 3.2rem;
+  background-color: #191402;
+}
+
+.footer_logo {
+  text-align: center;
+}
+
+.footer_logo_icon {
+  width: 12.8rem;
+  height: 12.8rem;
+  background-color: #322705;
+  color: #fcc419;
+  padding: 4rem;
+  border-radius: 50%;
+  margin-bottom: 4rem;
+  transition: all 0.3s;
+}
+
+.footer_logo:hover .footer_logo_icon {
+  background-color: #eee;
+  color: #191402;
+}
+
+.footer_text {
+  text-align: center;
+}
+
+.footer_content {
+  font-size: 1.8rem;
+  color: #eee;
+}
+
+.footer_span {
+  font-weight: 900;
+  text-transform: uppercase;
 }
