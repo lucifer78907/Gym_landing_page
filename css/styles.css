@@ -261,6 +261,7 @@ Large: 1.7
 .price-card {
   background-color: #fcc419;
   border-radius: 11px;
+  position: relative;
 }
 
 .price-tag {
@@ -295,6 +296,7 @@ Large: 1.7
   align-items: center;
   gap: 2rem;
   padding: 2rem;
+  font-weight: 500;
 }
 
 .plan-features-item:not(:last-child) {
@@ -324,4 +326,20 @@ Large: 1.7
   background-color: #f1f1f1;
   color: #322705;
   transform: scale(1.1);
+}
+
+.price-card::after {
+  content: "Best seller";
+  font-size: 1.8rem;
+  font-weight: 900;
+  background-color: #4c3b07;
+  color: #fcc419;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 1rem 2rem;
+  position: absolute;
+  top: 2rem;
+  right: -3.7rem;
+  transform: rotate(44deg);
+  border-radius: 3px;
 }
