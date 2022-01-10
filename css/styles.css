@@ -16,10 +16,22 @@ Primary: #fcc419
 WHITES -->
 #FFF
 #F1F1F1
+#eee
+#aaa
+#ccc
 GREYS->
 #191402
 #322705
 #654e0a
+
+Line height :
+Small: 1.1
+Large: 1.7
+
+3.) Border Radius 
+  Small: 6px
+  Large : 11px
+  
 */
 
 /* HERO */
@@ -237,4 +249,79 @@ GREYS->
 
 .testimonial_img {
   width: 30%;
+}
+
+/* PHOTOGALLERY */
+
+.section-pricing {
+  padding: 9.6rem 3.2rem;
+  background-color: #191402;
+}
+
+.price-card {
+  background-color: #fcc419;
+  border-radius: 11px;
+}
+
+.price-tag {
+  padding: 3.2rem 2.4rem 1.2rem;
+}
+
+.price-tag-text {
+  font-size: 6rem;
+  font-weight: 500;
+  text-align: center;
+}
+
+.price-span {
+  font-size: 7.2rem;
+  font-weight: 900;
+}
+
+.price-features {
+  padding: 1.2rem 2.4rem;
+}
+
+.plan-features {
+  list-style: none;
+  font-size: 1.8rem;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.plan-features-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.plan-features-item:not(:last-child) {
+  border-bottom: 1px solid #322705;
+}
+
+.plan-features-icon {
+  width: 2.4rem;
+  height: 2.4rem;
+}
+
+.join_btn {
+  text-align: center;
+}
+
+.btn-price-card:link,
+.btn-price-card:visited {
+  background-color: #191402;
+  margin-top: 1rem;
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin-bottom: 3.2rem;
+}
+
+.btn-price-card:hover,
+.btn-price-card:active {
+  background-color: #f1f1f1;
+  color: #322705;
+  transform: scale(1.1);
 }
