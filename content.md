@@ -15,8 +15,4 @@ our customers
 Personalized training from professinals
 Fully equipped HTTT cardio equipment and trainers
 
--testimonitals
--pricing
--cta
--footer
 -navigation
