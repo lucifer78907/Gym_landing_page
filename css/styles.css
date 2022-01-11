@@ -44,6 +44,11 @@ Large: 1.7
   background-color: #fcc419;
 }
 
+.header_logo ion-icon {
+  width: 9rem;
+  height: 6rem;
+}
+
 .navigation_list {
   display: flex;
   align-items: center;
@@ -71,7 +76,7 @@ Large: 1.7
 /* HERO */
 
 .section-hero {
-  padding: 9.6rem 3.2rem;
+  padding: 6rem 3.2rem;
   background-color: #fcc419;
 }
 
