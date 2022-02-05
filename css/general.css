@@ -8,7 +8,7 @@
 
 *:focus {
   outline: none;
-  box-shadow: 0 0 0 0.8rem rgba(50, 39, 5, 0.514);
+  box-shadow: 0 0 0 0.8rem rgba(241, 241, 241, 0.521);
 }
 
 html {

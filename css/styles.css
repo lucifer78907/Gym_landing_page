@@ -60,14 +60,14 @@ Large: 1.7
 .navigation_link:link,
 .navigation_link:visited {
   text-decoration: none;
-  font-size: 1.8rem;
+  font-size: 2rem;
   font-weight: 700;
   color: #191402;
 }
 
 .btn-header:link,
 .btn-header:visited {
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   letter-spacing: normal;
   text-transform: none;
   font-weight: 500;
@@ -81,7 +81,7 @@ Large: 1.7
 }
 
 .hero-content {
-  max-width: 114rem;
+  max-width: 120rem;
   margin: 0 auto;
 }
 
