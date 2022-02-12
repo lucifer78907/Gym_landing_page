@@ -1,1 +1,32 @@
 /* MEDIA QUERIES ARE WRITTEN HERE */
+
+/* ************************************************ */
+/* BELOW 1344px==84em(Smaller Desktops) */
+/* ************************************************ */
+
+@media only screen and (max-width: 84em) {
+  .container {
+    max-width: 120rem;
+  }
+
+  .heading-primary {
+    font-size: 5rem;
+  }
+}
+
+/* ************************************************ */
+/* BELOW 1200px==75em(Landscape Tablets) */
+/* ************************************************ */
+
+@media only screen and (max-width: 75em) {
+  html {
+    font-size: 50%;
+    /* 1rem = 8px now */
+  }
+  .container {
+    max-width: 130rem;
+  }
+  .heading-secondary {
+    font-size: 4.4rem;
+  }
+}
