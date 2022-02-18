@@ -226,3 +226,39 @@
     line-height: 1.2;
   }
 }
+
+/* ************************************************ */
+/* BELOW 544px==34em(Mobiles) */
+/* ************************************************ */
+
+@media only screen and (max-width: 34em) {
+  .grid-2-cols,
+  .grid-3-cols {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-customer-img {
+    width: 12%;
+  }
+
+  .hero-img {
+    width: 70%;
+  }
+
+  .benefits-img-1,
+  .benefits-img-3 {
+    grid-row: 1 / span 1;
+  }
+
+  .testimonial_img {
+    width: 40%;
+  }
+
+  .form_input {
+    width: 90%;
+  }
+
+  .sign_up_btn {
+    padding: 6rem 0 0;
+  }
+}
