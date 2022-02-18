@@ -145,6 +145,8 @@
     pointer-events: none;
     visibility: hidden;
     transform: translateX(100%);
+    position: absolute;
+    top: -100%;
   }
 
   .nav_open .navigation_list {
