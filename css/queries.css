@@ -182,3 +182,47 @@
     display: block;
   }
 }
+
+/* ************************************************ */
+/* BELOW 704px==44em(Smaller Tablets) */
+/* ************************************************ */
+
+@media only screen and (max-width: 44em) {
+  .hero-customer-img {
+    width: 8%;
+  }
+
+  .heading-secondary {
+    font-size: 3rem;
+    line-height: 1.4;
+  }
+
+  .benefit-number {
+    font-size: 8rem;
+  }
+
+  .heading-tertiary {
+    font-size: 2.8rem;
+  }
+
+  .benefits-text {
+    font-size: 1.7rem;
+  }
+
+  .section-achievements {
+    padding: 8rem 3rem;
+  }
+
+  .price-cards {
+    grid-template-columns: 1fr;
+  }
+
+  .footer_logo_icon {
+    width: 8rem;
+    height: 8rem;
+  }
+
+  .footer_content {
+    line-height: 1.2;
+  }
+}

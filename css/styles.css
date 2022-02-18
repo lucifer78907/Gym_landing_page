@@ -170,6 +170,7 @@ Large: 1.7
 }
 
 .benefit-number {
+  font-weight: 600;
   font-size: 9.6rem;
   margin-bottom: 3.2rem;
   color: #4c3b07;
