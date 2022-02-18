@@ -34,6 +34,25 @@ Large: 1.7
   
 */
 
+/* NAVIGATION */
+
+.btn-mobile-nav {
+  border: none;
+  display: none;
+  cursor: pointer;
+  background: none;
+}
+
+.icon-mobile-nav {
+  height: 4.8rem;
+  width: 4.8rem;
+  color: #322705;
+}
+
+.icon-mobile-nav[name="close-outline"] {
+  display: none;
+}
+
 /* HEADER */
 
 .header {
