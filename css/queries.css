@@ -37,7 +37,21 @@
 
 @media only screen and (max-width: 59em) {
   .hero-grid {
-    column-gap: 6rem;
+    grid-template-columns: 1fr;
+    column-gap: 0rem;
+    row-gap: 6rem;
+  }
+
+  .hero-text-box {
+    text-align: center;
+  }
+
+  .hero-customer-img {
+    width: 7%;
+  }
+
+  .hero-customers-imgs {
+    justify-content: center;
   }
 
   .section-hero {
@@ -48,16 +62,16 @@
     font-size: 4.6rem;
   }
 
+  .heading-secondary {
+    font-size: 3.2rem;
+  }
+
   .hero-paragraph {
     font-size: 1.8rem;
   }
 
-  .hero-customers-imgs {
-    justify-content: center;
-  }
-
   .hero-img {
-    width: 70%;
+    width: 55%;
   }
 
   .btn:link,
@@ -73,8 +87,9 @@
     padding: 9.6rem 6rem;
   }
 
-  .heading-secondary {
-    font-size: 4rem;
+  .benefits-img {
+    align-self: center;
+    width: 60%;
   }
 
   .heading-tertiary {
@@ -85,10 +100,35 @@
     padding: 9.6rem 6rem;
   }
 
-  .section-pricing {
-    padding: 9.6rem 6rem;
+  .cards {
+    grid-template-columns: repeat(2, 1fr);
   }
 
+  .testimonials {
+    grid-template-columns: 1fr;
+    row-gap: 6.4rem;
+    column-gap: 0;
+  }
+
+  .testimonial_img {
+    width: 20%;
+  }
+
+  .section-pricing {
+    padding: 9.6rem 4rem;
+  }
+
+  .price-cards {
+    column-gap: 4.8rem;
+  }
+
+  .price-features {
+    padding: 1.2rem 0;
+  }
+
+  .plan-features-item {
+    padding: 2rem 1rem;
+  }
   .section-cta {
     padding: 9.6rem 4rem 6rem;
   }
