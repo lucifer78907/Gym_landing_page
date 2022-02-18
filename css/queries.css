@@ -173,11 +173,10 @@
   .nav_open .btn-header:visited {
     font-size: 2.4rem;
   }
-
-  .nav_open .icon-mobile-nav[name="close-outline"] {
-    display: block;
-  }
   .nav_open .icon-mobile-nav[name="menu-outline"] {
     display: none;
+  }
+  .nav_open .icon-mobile-nav[name="close-outline"] {
+    display: block;
   }
 }
